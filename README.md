@@ -28,4 +28,14 @@ Claude Code recognizes personal Skills under `~/.claude/skills/<skill-name>/SKIL
 
 ## Updating and releasing
 
-The local repository is configured with a repository-scoped SSH Deploy Key. Commit and push normal updates with Git; release tags can be created with `git tag vX.Y.Z && git push origin vX.Y.Z`.
+The local repository is configured with a repository-scoped SSH Deploy Key.
+
+```bash
+# Commit and push all Skill changes
+./scripts/sync.sh "chore: refine visual recipe"
+
+# Sync, tag, and publish a GitHub Release automatically
+./scripts/release.sh 0.1.1
+```
+
+Pushing a `vX.Y.Z` tag triggers the included GitHub Actions workflow, which creates a GitHub Release automatically.
