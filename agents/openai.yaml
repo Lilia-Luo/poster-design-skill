@@ -1,0 +1,4 @@
+interface:
+  display_name: "Poster Design Skill"
+  short_description: "Design accurate, distinctive education posters."
+  default_prompt: "Use $poster-design-skill to create a distinctive poster and choose the right production mode."
