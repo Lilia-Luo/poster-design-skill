@@ -7,6 +7,18 @@ description: Create or redesign polished, credible posters and long-form course 
 
 Create a differentiated visual system before making a poster. Match the production method to whether the output is a visual direction or publication material.
 
+## Output contract
+
+Apply these hard constraints to every final poster unless the user explicitly overrides one:
+
+- Design for mobile-first reading and export at exactly 1080px wide.
+- Let the height follow the content; there is no fixed maximum height.
+- At the 1080px export size, use no readable text smaller than 24px. This includes captions, labels, metadata, notes, table text, and CTA text.
+- If copy does not fit, increase the canvas height or split the material into multiple images or a carousel. Never shrink text below 24px to preserve a layout.
+- Every visible word must come from user-approved copy, supplied brand assets, or a necessary structural label derived directly from the supplied content.
+- Do not invent decorative eyebrows, English labels, pseudo-program names, taglines, badges, section codes, or corner annotations such as “Career Skills Lab”.
+- Generated backgrounds and decorative graphics must not contain readable pseudo-text or factual-looking marks.
+
 ## Production modes
 
 Choose the lightest safeguard that meets the user's purpose. Never let error prevention flatten the visual idea.
@@ -21,9 +33,10 @@ Generated Chinese, mixed-language copy, and small digits can fail in any image-g
 
 ### 1. Intake and truth check
 
-Read [content-intake.md](references/content-intake.md). Gather the audience, goal, one main promise, approved copy, factual sources, channel/size, CTA, brand profile, assets, and production mode. Use [brand-profile-template.md](references/brand-profile-template.md) if a brand profile is missing.
+Read [content-intake.md](references/content-intake.md). Gather the audience, goal, one main promise, approved copy, copy sources, approved auxiliary copy, factual sources, channel, CTA, brand profile, assets, and production mode. Use [brand-profile-template.md](references/brand-profile-template.md) if a brand profile is missing.
 
 For missing material facts, use `需确认`. Do not create or imply results, employers, instructor identities, prices, schedules, testimonials, credentials, or performance data.
+Treat auxiliary copy as `none` unless the user supplies or explicitly approves it.
 
 ### 2. Choose a direction
 
@@ -39,7 +52,7 @@ Offer 2–3 directions only if the user has not selected one. Keep color separat
 
 ### 3. Build the hierarchy
 
-Use one main promise and 3–5 supporting points on a single-screen poster. For a curriculum, comparison, or more than 6 meaningful facts, use a long-form layout or carousel. Do not shrink type just to retain every paragraph.
+Use one main promise and 3–5 supporting points on a single-screen poster. For a curriculum, comparison, or more than 6 meaningful facts, use a long-form layout or carousel. Increase height or split the output rather than shrinking type below 24px.
 
 ### 4. Produce
 
@@ -61,4 +74,4 @@ Read [sample-index-dbc.md](references/sample-index-dbc.md) only when the user re
 
 ## Quality gate
 
-Run [quality-checklist.md](references/quality-checklist.md) before export. Deliver a short report: selected recipe, production mode, copy-check result where applicable, facts marked `需确认`, output size, and editable source location when applicable.
+Run [quality-checklist.md](references/quality-checklist.md) before export. Deliver a short report: selected recipe, production mode, copy-provenance result, facts marked `需确认`, output dimensions, minimum text size, and editable source location when applicable.

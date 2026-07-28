@@ -1,5 +1,11 @@
 # Layout Types
 
+## Mobile-first canvas
+
+Build every final poster at exactly 1080px wide unless the user explicitly overrides the output contract. Height follows the content and has no fixed maximum.
+
+At the 1080px export size, every readable text element must be at least 24px. This includes captions, labels, metadata, notes, table text, and CTA text. Check the rendered export, not only the nominal design-tool value.
+
 ## Single-screen conversion
 
 Use for a single promise, 3–5 supporting points, and CTA. It is not suitable for full curriculum tables.
@@ -18,4 +24,4 @@ Lead with one verified project message, then use a small evidence block and a CT
 
 ## Split rule
 
-Split into a carousel or multiple pages when body copy requires a type size below a readable mobile scale, when a table contains more than 8 rows, or when a reader cannot identify the main promise within three seconds.
+First increase the poster height. Split into a carousel or multiple 1080px-wide images when the reading path becomes unwieldy, when a table contains more than 8 rows, or when the body copy would otherwise require text below 24px. Never compress, scale down, or reduce type below 24px to preserve a preferred composition.

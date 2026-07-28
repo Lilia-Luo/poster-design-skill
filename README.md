@@ -2,6 +2,13 @@
 
 A visual-first poster design skill for education, career development, training, consulting, and knowledge products.
 
+## Default output contract
+
+- Mobile-first, exactly 1080px wide, with content-driven height.
+- No readable text smaller than 24px at export size.
+- Dense content expands vertically or splits across multiple images instead of shrinking the type.
+- No invented eyebrows, decorative English labels, pseudo-program names, taglines, badges, corner annotations, or readable pseudo-text.
+
 ## Production modes
 
 - **Visual exploration** — generate strong visual directions quickly; generated wording is visual reference only.
